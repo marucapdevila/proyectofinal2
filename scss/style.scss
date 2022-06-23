@@ -1,0 +1,187 @@
+@import"variables";
+@import "generales";
+@import "fuentes";
+@import "nuestrocolegio";
+@import "areas";
+
+
+.logo {
+    width: 125px;
+  }
+  
+  .lista_principal{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 15px;
+   
+  }
+  
+  /**index**/
+  
+  .logo_j {
+    width: 20%;
+    overflow: hidden;
+    margin: 20%;
+  }
+  
+  .card_jardin{
+    width: 15rem;
+    margin: 3%;
+    text-align: center;
+  }
+  
+  .logo_p {
+      width: 20%;
+      overflow: hidden;
+      margin: 20%;
+  }
+    
+  .card_primaria{
+      width: 15rem;
+      margin: 3%;
+      text-align: center;
+  }
+  
+  .logo_s {
+    width: 20%;
+    overflow: hidden;
+    margin: 20%;
+    transition: 0.5s;
+    object-fit: cover;
+    
+  }
+  
+  .logo_j:hover{
+    transform: scale(1.2);
+  }
+  .logo_p:hover{
+    transform: scale(1.2);
+  }
+  .logo_s:hover{
+    transform: scale(1.2);
+  }
+  
+  .card_secundaria{
+    width: 15rem;
+    margin: 3%;
+    text-align: center;
+  }
+  
+  .card-title {
+    color:cadetblue;
+  
+  }
+  
+  
+  /**nuestro colegio**/
+  
+  .nuestrocolegio{
+    display: grid;
+    place-items: center;
+  }
+  
+  
+  h2{
+    text-align: center;
+    color: cadetblue;
+    
+  }
+  
+  
+  
+  .jardinn_card_areas {
+    text-align: center;
+    width: 15rem;
+    margin: 3%;
+    
+  }
+  
+  .primariaa_card_areas {
+    text-align: center;
+    width: 15rem;
+    margin: 3%;
+  }
+  
+  .secundariaa_card_areas {
+    text-align: center;
+    width: 15rem;
+    margin: 3%;
+  }
+  
+  /**areas**/
+  
+  h3{
+    text-align:right;
+    color: cadetblue;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  .imgArt{
+    width: 100%;
+  }
+  
+  
+  /**proyecto educativo*/
+  
+  h4{
+    color: cadetblue;
+  }
+  
+  
+  /**footer**/
+  
+  footer {
+    background-color: cadetblue;
+  
+  }
+  
+  .contenedor-info-footer {
+    height: auto;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 2%;
+    justify-content: space-around;}
+  
+    .columna {
+      width: 30%;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  .redes-sociales {
+      font-size: 1.2rem;
+      padding: 8px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 6%;
+  }
+  
+  .copy {
+      text-align: center;
+      font-size: 1rem;
+      padding: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor-info-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor-info-footer {
+        font-size: 10px;
+  
+    }}
+    
+    @media (max-width: 768px) {
+      .titulo-info-footer{
+          font-size: 14px;
+      }
+  }
