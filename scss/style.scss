@@ -19,6 +19,7 @@
   
   /**index**/
   
+  
   .logo_j {
     width: 20%;
     overflow: hidden;
@@ -114,10 +115,14 @@
   h3{
     text-align:right;
     color: cadetblue;
+    padding: 50%;
+    
   }
   
   p{
     text-align: center;
+    padding: 50%;
+    
   }
   
   .imgArt{
@@ -127,6 +132,9 @@
   
   /**proyecto educativo*/
   
+  .imgProy {
+    width: 100%;
+  }
   h4{
     color: cadetblue;
   }
@@ -167,6 +175,10 @@
       padding: 5px;
   }
   
+  .row{
+    margin: 0;
+  }
+
   @media (max-width: 768px) {
     .contenedor-info-footer {
         flex-direction: column;
